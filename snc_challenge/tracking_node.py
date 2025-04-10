@@ -8,7 +8,7 @@ class TrackingNode(Node):
     def __init__(self):
         super().__init__('tracking_node')
 
-        self.get_logger().info("Tracking Node Ready")
+        self.get_logger().info("Tracking Node Ready!!")
             
 def main(args = None):
     rclpy.init(args = args)
